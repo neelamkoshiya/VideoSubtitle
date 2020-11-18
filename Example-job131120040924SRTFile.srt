@@ -1,0 +1,368 @@
+1
+00:00:02,439 --> 00:00:04,960
+Gracias usted, Andy. Y bueno mañana, todos
+
+2
+00:00:05,339 --> 00:00:08,669
+. Sabio hacedor estudio tira juntos para la primero tiempo
+
+3
+00:00:08,990 --> 00:00:12,230
+docenas de máquina aprendizaje herramientas en una soltero panel de
+
+4
+00:00:12,230 --> 00:00:15,369
+vidrio que contiene todos de la herramientas que usted necesidad
+
+5
+00:00:15,539 --> 00:00:19,410
+a construir, tren, sintonizar y desplegar su máquina
+
+6
+00:00:19,410 --> 00:00:21,980
+aprendizaje modelos en nuestro objetivo aquí es que nosotros quiere
+
+7
+00:00:21,980 --> 00:00:24,280
+a ser capaz a proporcionar máquina aprendizaje y poner lo
+
+8
+00:00:24,280 --> 00:00:27,519
+en la manos de incluso Mawr desarrolladores y dato científicos
+
+9
+00:00:27,649 --> 00:00:29,500
+que nosotros hemos terminado en la pasado. Yo soy va a dar
+
+10
+00:00:29,500 --> 00:00:31,739
+usted una caminar a través de una guiado gira de salvia hacedor
+
+11
+00:00:31,739 --> 00:00:34,079
+hoy, usando una muy simple ejemplo, nosotros somos va a
+
+12
+00:00:34,079 --> 00:00:37,479
+construir una máquina aprendizaje modelo que predice casa precios.
+
+13
+00:00:37,840 --> 00:00:40,549
+Estamos va a hacer este usando una pareja de simple parámetros
+
+14
+00:00:40,560 --> 00:00:42,950
+cosas como la número de Dormitorios y la número de
+
+15
+00:00:42,960 --> 00:00:46,189
+baños para cada individual casa. Por con cosas como
+
+16
+00:00:46,189 --> 00:00:48,270
+la hipoteca tasa y la precio, nosotros somos ir a
+
+17
+00:00:48,270 --> 00:00:51,780
+ir por delante y recoger este así que máquina aprendizaje aprende por
+
+18
+00:00:51,780 --> 00:00:54,450
+ejemplos. Y así que la más ejemplos usted tener,
+
+19
+00:00:54,460 --> 00:00:57,119
+la mejor nosotros lata recoger todos de este ventas información
+
+20
+00:00:57,130 --> 00:00:59,369
+desde atravesado la U. S. Entonces nosotros simplemente
+
+21
+00:00:59,369 --> 00:01:00,490
+tomar lo, envoltura lo arriba en una CSB archivo
+
+22
+00:01:00,500 --> 00:01:03,260
+en gota lo en s Tres. Ahora nosotros lata
+
+23
+00:01:03,260 --> 00:01:07,290
+mover en salvia hacedor estudio y en sólo una pocos
+
+24
+00:01:07,290 --> 00:01:08,989
+clics desde dentro la ID, nosotros lata lanzamiento una
+
+25
+00:01:08,989 --> 00:01:12,459
+nuevo piloto automático trabajo. Nosotros simplemente sólo decir Sabio Hacedor
+
+26
+00:01:12,469 --> 00:01:15,569
+donde la modelo donde dato es.¿Qué? etapa hacedor
+
+27
+00:01:15,569 --> 00:01:19,120
+piloto automático hace a este punto es lo se inicia a spin
+
+28
+00:01:19,120 --> 00:01:22,430
+arriba múltiplo diferente modelos, cada con una diferente conjunto
+
+29
+00:01:22,430 --> 00:01:25,969
+de algoritmos, dato conjuntos y parámetros. El sucio
+
+30
+00:01:25,969 --> 00:01:27,590
+secreto de máquina aprendizaje es que usted no sólo tren
+
+31
+00:01:27,599 --> 00:01:30,200
+una soltero modelo, usted tren docenas y recoger la
+
+32
+00:01:30,200 --> 00:01:34,859
+mejor uno. Así que aquí está salvia Hacedor es usando todos
+
+33
+00:01:34,859 --> 00:01:37,290
+de la información que lo tiene a automáticamente recoger y
+
+34
+00:01:37,290 --> 00:01:40,530
+tren la algoritmo en la parámetros a tren múltiplo diferente
+
+35
+00:01:40,530 --> 00:01:42,140
+modelos. Y lo hace este intuitivamente. Estamos sólo
+
+36
+00:01:42,140 --> 00:01:45,379
+mostrando cuatro aquí, pero en la próximo iteración,
+
+37
+00:01:45,390 --> 00:01:48,260
+lo púas la mejor características usando máquina aprendizaje bajo la
+
+38
+00:01:48,260 --> 00:01:51,230
+campana en orden a cede la próximo iteración en la
+
+39
+00:01:51,230 --> 00:01:55,209
+próximo generación en overtime, Sagemaker piloto automático se inicia a hogar
+
+40
+00:01:55,209 --> 00:01:59,000
+en en la mejor conjunto de algoritmos dato características en
+
+41
+00:01:59,000 --> 00:02:00,920
+parámetros a proporcionar la mejor posible modelo, y lo
+
+42
+00:02:00,920 --> 00:02:06,030
+proporciona una clasificado líder bordo de candidato modelos aquí clasificado
+
+43
+00:02:06,040 --> 00:02:08,860
+por exactitud. Ahora, en casi todos casos,
+
+44
+00:02:08,870 --> 00:02:12,039
+tú eres va a quiere a elegir la sólo la mejor realizar
+
+45
+00:02:12,039 --> 00:02:13,969
+modelo, así que la uno con la mejor exactitud,
+
+46
+00:02:14,439 --> 00:02:16,789
+pero porque salvia hacedor estudio es usando la D bugger
+
+47
+00:02:16,789 --> 00:02:21,479
+bajo la campana es proporcionar perfilado información, y piloto automático
+
+48
+00:02:21,479 --> 00:02:23,680
+es automáticamente generando la cuadernos. Usted lata buceo en
+
+49
+00:02:23,689 --> 00:02:27,430
+cualquier uno de estos individual modelos y conseguir una más cerca
+
+50
+00:02:27,430 --> 00:02:30,240
+mirar. Usted lata mirar a exactamente cómo Sagemaker piloto automático
+
+51
+00:02:30,250 --> 00:02:32,219
+tiró juntos. Todos que dato. Usted lata mirar
+
+52
+00:02:32,219 --> 00:02:36,090
+a la exacto parámetros y la exacto algoritmos que nosotros
+
+53
+00:02:36,090 --> 00:02:38,650
+usado a generar lo, y porque nosotros somos usando la
+
+54
+00:02:38,650 --> 00:02:39,879
+depurar bajo la campana por predeterminado, usted lata iniciar
+
+55
+00:02:39,879 --> 00:02:44,719
+a inspeccionar la características y su priorización dentro aquellos modelos
+
+56
+00:02:45,139 --> 00:02:46,419
+. Así que este permite usted a, con nuevo niveles
+
+57
+00:02:46,419 --> 00:02:50,050
+de visibilidad y perspicacia, recoger la mejor modelo,
+
+58
+00:02:50,060 --> 00:02:53,210
+que no sólo tiene la derecha exactitud pero también cumple
+
+59
+00:02:53,219 --> 00:02:55,629
+otro expectativas, tales como si tú eres tratamiento la dato
+
+60
+00:02:55,629 --> 00:02:59,400
+correctamente o si su modelo potencialmente contiene cualquier sesgo.
+
+61
+00:02:59,840 --> 00:03:00,879
+En este punto, cuando usted seleccionado la modelo que
+
+62
+00:03:00,879 --> 00:03:02,610
+usted quiere a desplegar, usted lata hacer que con
+
+63
+00:03:02,610 --> 00:03:07,750
+sólo una soltero clic dentro Sabio Hacedor estudio. Lo
+
+64
+00:03:07,750 --> 00:03:09,759
+obtiene desplegado y usted lata gire en la etapa Maykel
+
+65
+00:03:09,830 --> 00:03:14,110
+modelo monitor en.¿Qué? nosotros somos haciendo aquí es nosotros
+
+66
+00:03:14,120 --> 00:03:16,110
+paso por paso, iniciar a comparar la dato,
+
+67
+00:03:16,110 --> 00:03:20,250
+que es usado a hacer predicciones con la referencia dato
+
+68
+00:03:20,250 --> 00:03:22,849
+usado a tren la modelo en a cualquier punto.
+
+69
+00:03:22,860 --> 00:03:24,770
+Si salvia hacer una modelo monitor se inicia a detectar cualquier
+
+70
+00:03:24,780 --> 00:03:28,770
+estadísticas desviaciones, lo se dar usted un alerta.
+
+71
+00:03:28,849 --> 00:03:30,639
+Eso es una realmente bueno indicador que usted querer ser capaz
+
+72
+00:03:30,639 --> 00:03:31,789
+a ir espalda. Mirar a su modelo nuevamente en
+
+73
+00:03:31,789 --> 00:03:35,969
+potencialmente readiestramiento la dato. Así que aquí nosotros lata ver
+
+74
+00:03:35,969 --> 00:03:38,770
+que la significar de la hipoteca tasa dato tiene iniciado
+
+75
+00:03:38,770 --> 00:03:39,740
+a cambio. Esto probablemente tiene algo a hacer con
+
+76
+00:03:39,740 --> 00:03:43,009
+interés tarifas, Así que a este punto nosotros podría saltar
+
+77
+00:03:43,020 --> 00:03:45,389
+espalda en estudio. Nosotros lata tampoco tirar arriba nuestro
+
+78
+00:03:45,389 --> 00:03:47,539
+cuadernos, debilitar, iniciar desde rasguño usando piloto automático y
+
+79
+00:03:47,539 --> 00:03:51,669
+tren otro conjunto de modelos, probablemente con nuevo fresco
+
+80
+00:03:51,680 --> 00:03:53,189
+dato. Entonces nosotros lata ir a través de la proceso nuevamente
+
+81
+00:03:53,379 --> 00:03:57,599
+. Debilitar seleccionar Nuestro mejor realizar modelo debilitar desplegado en
+
+82
+00:03:57,599 --> 00:04:00,349
+producción que va en una completamente administrado a elástico,
+
+83
+00:04:00,460 --> 00:04:02,949
+multi ese entorno en modelo monitoreo se continuar hasta lo
+
+84
+00:04:02,949 --> 00:04:06,419
+detecta cualquier desviación ir adelante. Así que para la primero
+
+85
+00:04:06,419 --> 00:04:10,409
+tiempo, salvia hacedor estudio se inicia a tirar juntos la
+
+86
+00:04:10,409 --> 00:04:13,870
+herramientas que desarrolladores ellos están usado a usando con tradicional software
+
+87
+00:04:14,020 --> 00:04:18,329
+D buggers, perfiladores automatización gestión en una soltero panel
+
+88
+00:04:18,329 --> 00:04:20,100
+de vidrio, que podría ser usado a construir,
+
+89
+00:04:20,110 --> 00:04:24,339
+tren, desplegar y manejar su máquina aprendizaje modelos en
+
+90
+00:04:24,339 --> 00:04:27,009
+una manera que es manera más fácil en manera, más
+
+91
+00:04:27,009 --> 00:04:30,220
+accesible para incluso más desarrolladores y incluso más dato científicos
+
+92
+00:04:30,550 --> 00:04:30,910
+. Con que, Yo lo haré mano lo espalda a Andy
+
