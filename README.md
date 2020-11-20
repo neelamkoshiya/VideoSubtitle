@@ -1,6 +1,10 @@
 # VideoSubtitle
 Learn how to transcribe video, translate  to multiple language and save it as a SRT file
 
+Here is the high level architecture. Even though I have elaborated the process in Sagemaker Jupyter notebook. In reality you can put it on any compute and schedule it using Cloudwatch.
+
+![Architecture diagram](https://github.com/neelamkoshiya/VideoSubtitle/blob/main/VideoSubtitles.jpg)
+
 Steps:
 
 1) Create sagemaker notebook : [create a notebook](https://docs.aws.amazon.com/sagemaker/latest/dg/howitworks-create-ws.html)
